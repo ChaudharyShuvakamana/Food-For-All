@@ -33,7 +33,8 @@ import np.com.softwarica.foodforall.utils.CreateChannel;
 
 public class LoginActivity extends AppCompatActivity {
 
-    protected EditText etEmail, etPassword;
+    public EditText etEmail;
+    public EditText etPassword;
     private Button btnLogin;
     private FirebaseAuth auth;
     private SensorManager manager;
